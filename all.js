@@ -44,7 +44,7 @@ axios.post('https://hexschool-tutorial.herokuapp.com/api/signup',obj)
     signupMessage.textContent ="恭喜你帳號註冊成功";
   }
   else{
-    alert("帳號註冊失敗!email已被使用請重新註冊");
+    alert("帳號註冊失敗! Email已被使用，請重新註冊");
   }
   signupAccount.value="";
   signupPassword.value="";
